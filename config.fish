@@ -1,10 +1,17 @@
-set -U fish_greeting ""
 
 ######################
 # title: config.fish #
 # author: beezy      #
 # date: 04/05/2023   #
 ######################
+
+# Sets Fish Welcome Message
+
+set -U fish_greeting ""
+
+
+
+
 
 # Sys Info Tools #
 
@@ -36,9 +43,6 @@ alias nc='ncspot'
 		# Calendar #
 alias calendar='khal interactive'
 
-		# Weather #
-alias weather='curl wttr.in/Michigan'
-
 		# Ufw #
 alias ufw="sudo ufw enable"
 
@@ -68,3 +72,4 @@ alias 90="brightnessctl set 90000"
 
 		# Microsoft Windows Key #
 alias microsoftkey="sudo cat /sys/firmware/acpi/tables/MSDM | tail -1"
+
